@@ -6,7 +6,7 @@ using AsyncScheduler;
 using ChainingAssertion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AsyncActionSchedulerTest
+namespace UnitTest.AsyncScheduler
 {
     [TestClass]
     public class UnitTest1
