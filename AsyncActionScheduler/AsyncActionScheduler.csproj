@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>AsyncScheduler</RootNamespace>
+    <DebugType Condition="'$(Configuration)'=='Release'">none</DebugType>
+    <PackageId>AsyncActionScheduler</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>acple</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/acple/AsyncActionScheduler/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/acple/AsyncActionScheduler</PackageProjectUrl>
+    <Description>async task runner</Description>
+    <Copyright>(c) 2018 acple</Copyright>
+    <PackageTags>async;task;scheduler;queue</PackageTags>
+  </PropertyGroup>
+</Project>
